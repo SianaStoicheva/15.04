@@ -12,3 +12,18 @@ C:\Siana 9A\Class - 9a\Family\obj\Debug\net8.0\refint\Family.dll
 C:\Siana 9A\Class - 9a\Family\obj\Debug\net8.0\Family.pdb
 C:\Siana 9A\Class - 9a\Family\obj\Debug\net8.0\Family.genruntimeconfig.cache
 C:\Siana 9A\Class - 9a\Family\obj\Debug\net8.0\ref\Family.dll
+C:\Users\lenovo\Desktop\Siana\15.04\Family\bin\Debug\net8.0\Family.exe
+C:\Users\lenovo\Desktop\Siana\15.04\Family\bin\Debug\net8.0\Family.deps.json
+C:\Users\lenovo\Desktop\Siana\15.04\Family\bin\Debug\net8.0\Family.runtimeconfig.json
+C:\Users\lenovo\Desktop\Siana\15.04\Family\bin\Debug\net8.0\Family.dll
+C:\Users\lenovo\Desktop\Siana\15.04\Family\bin\Debug\net8.0\Family.pdb
+C:\Users\lenovo\Desktop\Siana\15.04\Family\obj\Debug\net8.0\Family.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenovo\Desktop\Siana\15.04\Family\obj\Debug\net8.0\Family.AssemblyInfoInputs.cache
+C:\Users\lenovo\Desktop\Siana\15.04\Family\obj\Debug\net8.0\Family.AssemblyInfo.cs
+C:\Users\lenovo\Desktop\Siana\15.04\Family\obj\Debug\net8.0\Family.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\Siana\15.04\Family\obj\Debug\net8.0\Family.sourcelink.json
+C:\Users\lenovo\Desktop\Siana\15.04\Family\obj\Debug\net8.0\Family.dll
+C:\Users\lenovo\Desktop\Siana\15.04\Family\obj\Debug\net8.0\refint\Family.dll
+C:\Users\lenovo\Desktop\Siana\15.04\Family\obj\Debug\net8.0\Family.pdb
+C:\Users\lenovo\Desktop\Siana\15.04\Family\obj\Debug\net8.0\Family.genruntimeconfig.cache
+C:\Users\lenovo\Desktop\Siana\15.04\Family\obj\Debug\net8.0\ref\Family.dll

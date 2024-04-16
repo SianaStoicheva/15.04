@@ -1,4 +1,6 @@
-﻿namespace Family
+﻿using System.Xml.Linq;
+
+namespace Family
 {
     internal class Program
     {
@@ -36,12 +38,12 @@
 
             Family myFamily = new Family();
             myFamily.FamilyName = "Stoicvhevi";
-            Console.Write("Input count of family member: ");
+            Console.Write("Input count of family members: ");
             int countMembers = int.Parse(Console.ReadLine());
 
             for (int i = 0; i < countMembers; i++)
             {
-                Console.WriteLine($"Vuvedi {i+1} chovek: ");
+                Console.WriteLine($"Enter information for person {i + 1}: ");
                 Person currentPerson = new Person();
                 Console.Write($"Input name: ");
                 currentPerson.Name = Console.ReadLine();
@@ -50,16 +52,26 @@
 
                 myFamily.Member.Add(currentPerson);
             }
-             
-            for (int j = 0;j < myFamily.Member.Count;j++)
+
+            for (int j = 0; j < myFamily.Member.Count - 1; j++)
             {
-                if (myFamily.Member[j].Age > myFamily.Member[j+1].Age)
+                for (int k = j + 1; k < myFamily.Member.Count; k++)
                 {
-                    Person temp = myFamily.Member[j];
-                    myFamily.Member[j] = myFamily.Member[j+1];
-                    myFamily.Member[j+1] = temp;
+                    if (myFamily.Member[j].Age > myFamily.Member[k].Age)
+                    {
+                        Person temp = myFamily.Member[j];
+                        myFamily.Member[j] = myFamily.Member[k];
+                        myFamily.Member[k] = temp;
+                    }
                 }
             }
+
+
+            myFamily.PrintOldestAndYoungest();
+
+            myFamily.PrintAll();
+
+
         }
     }
 }

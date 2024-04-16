@@ -45,7 +45,7 @@ namespace Family
         }
         public void IntroduceYourself()
         {
-            Console.WriteLine($"Az {name} i sum na {age}.");
+            Console.WriteLine($"Az sum {name} i sum na {age}.");
         }
 
     }
