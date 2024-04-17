@@ -36,8 +36,8 @@ namespace Family
         }
         public void PrintOldestAndYoungest()
         {
-            Person oldest = member[0];
-            Person youngest = member[0];
+            Person oldest = new Person();
+            Person youngest = new Person();
 
             if (member.Count == 0)
             {

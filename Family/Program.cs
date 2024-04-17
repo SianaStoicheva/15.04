@@ -4,7 +4,6 @@ namespace Family
 {
     internal class Program
     {
-
         static void Main(string[] args)
         {
             //Person chovek = new Person();
